@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;  
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+}
+
+.header{
+  justify-content: space-between;
+  padding: 0px 120px;
+  align-items: center;
+  display: flex;
+  height: 75px;
+  border: 1px solid #E3E3E3;
+  background: #FFF;
+}
+
+.headerLogo{
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.headerFaq{
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerRegistration{
+  display: flex;
+  align-items: center;
+}
+
+.underHeader{
+  display: flex;
+  justify-content: space-between;
+  background: #F2DCC2;
+  height: 435px;
+}
+
+.underHeaderMakeOrder{
+  align-self: center;
+  padding: 0px 120px; 
+  color: #FFF;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.generalInfo{
+  height: 435px;
+  display: flex;
+  align-items: center;
+  padding: 0px 120px; 
+
+  
+}
+
+.generalInfo h1{
+  width: 696px;
+  height: 231px;
+  flex-shrink: 0;
+  color: #000;
+  text-shadow: 0px 2px 19px rgba(0, 0, 0, 0.25);
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-right: black solid 2px;
+  align-self: center;
+}
+
+.mainCalculator{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 115px 120px; 
+  height: 435px;
+  flex-shrink: 0;
+  background: #3D3831;
+  justify-content: space-between;
+}
+
+.mainCalculatorCalc{
+  display: flex;
+}
+
+.mainCalculatorCalc h1{
+  color: #FFF;
+  font-size: 3  0px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.mainCalculatorCalc img{
+  width: 36px;
+  height: 29.848px;
+}
+
+.mainCalculator input{
+  width: 520px;
+  height: 46px;
+  border-radius: 1px;
+  border: 1px solid #FFF;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.mainCalculator button{
+  width: 146px;
+  height: 33px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #FFF
+}
+
+.mainCalculatorFinalPrice{
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 520px;
+  height: 46px;
+  border-radius: 1px;
+  border: 1px solid #FFF;
+  font-size: 32px;
+  padding: 0px 10px;
+}
+

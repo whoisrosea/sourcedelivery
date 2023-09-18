@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/mainstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SourceDelivry</title>
+</head>
+<body>
+  <div class="header">
+    <a href="" class="headerLogo">SourceDelivery</a>
+    <div class="headerFaq">
+      <a href="" class="headerQuestions">вопрос-ответ</a>
+      <a href="" class="headerContacts">контакты</a>
+      <a href="" class="headerCalculator">калькулятор</a>
+    </div>
+    <div class="headerRegistration">
+      <img src="css/images/headerImageUser.svg" alt="">
+      <a href="loginpage.html">вход/регистрация</a>
+    </div>
+  </div>
+  <div class="underHeader">
+    <img src="css/images/underHeaderSourceDelivery.svg" alt="">
+    <a href="" class="underHeaderMakeOrder">оформить заказ</a>
+  </div>
+  <div class="generalInfo">
+    <h1 class="generalInfoSourceDelivery">
+      SourceDelivery - удобная платформа для заказа товаров из различных маркетплейсов Китая с возможностью отслеживания заказов. Пользователи также могут оформить оплату на сайте или заказать сами на наш адрес в Китае
+    </h1>
+
+  </div>
+  <div class="mainCalculator">
+    <div class="mainCalculatorCalc">
+      <h1>калькулятор</h1>
+      <img src="css/images/mainCalculator.svg" alt="">
+    </div>
+    <input class="priceCny" onfocus="this.value=''" value="Цена товара в CN¥" type="text">
+    <input class="weight" onfocus="this.value=''" value="Вес в кг" type="text">
+    <button onclick="calculatin()">рассчитать</button>
+    <div class="mainCalculatorFinalPrice" id="mainCalculatorFinalPriceByn"></div>
+    <div class="mainCalculatorFinalPrice" id="mainCalculatorFinalPriceDlr"></div>
+    <div class="mainCalculatorFinalPrice" id="mainCalculatorFinalPriceCny"></div>
+
+  </div>
+  <script src="js/script.js"></script>
+</body>
+<footer>
+</footer>
+</html>
